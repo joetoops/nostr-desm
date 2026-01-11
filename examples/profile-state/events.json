@@ -1,0 +1,25 @@
+[
+  {
+    "id": "root1",
+    "pubkey": "root-pub",
+    "created_at": 1,
+    "content": "{\"name\": \"Alice\", \"bio\": \"Initial\"}",
+    "tags": []
+  },
+  {
+    "id": "update1",
+    "pubkey": "root-pub",
+    "created_at": 2,
+    "kind": 6,
+    "content": "{\"name\": \"Alice Updated\"}",
+    "tags": [["e", "root1"]]
+  },
+  {
+    "id": "update2",
+    "pubkey": "root-pub",
+    "created_at": 3,
+    "kind": 6,
+    "content": "{\"bio\": \"Final Bio\"}",
+    "tags": [["e", "root1"]]
+  }
+]
