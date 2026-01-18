@@ -1,6 +1,7 @@
 {
   "name": "nostr-desm",
   "version": "0.1.0",
+  "private": true,
   "description": "Reference implementation of Deterministic Event-Driven State Machine (DESM) primitive for Nostr-compatible state reconstruction.",
   "type": "module",
   "main": "dist/index.js",
